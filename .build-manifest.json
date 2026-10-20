@@ -1,0 +1,73 @@
+{
+  "version": "2.4.0",
+  "builtAt": "2026-04-05T02:02:10.431Z",
+  "source": "packs/product/pack.manifest.json",
+  "included": {
+    "skills": [
+      "product-discovery-synthesis",
+      "product-user-interview-design",
+      "product-opportunity-mapping",
+      "product-prd-authoring",
+      "product-prioritization",
+      "product-metrics-analysis",
+      "product-engagement-design",
+      "product-validation",
+      "product-facilitation"
+    ],
+    "commands": [
+      "product-review-strategy"
+    ],
+    "agents": [
+      "product-strategy-reviewer"
+    ],
+    "sharedReferences": [
+      "product-quality-gates.md"
+    ]
+  },
+  "excluded": {
+    "commands": [
+      {
+        "id": "product-discover",
+        "reason": "Depends on PrepKit planner agent"
+      },
+      {
+        "id": "product-design-research",
+        "reason": "Depends on PrepKit planner agent"
+      },
+      {
+        "id": "product-map-opportunities",
+        "reason": "Depends on PrepKit planner agent"
+      },
+      {
+        "id": "product-write-prd",
+        "reason": "Depends on PrepKit planner agent"
+      },
+      {
+        "id": "product-prioritize",
+        "reason": "Depends on PrepKit planner agent"
+      }
+    ],
+    "workflows": [
+      {
+        "id": "product-discovery",
+        "reason": "Depends on PrepKit workflow orchestration"
+      },
+      {
+        "id": "product-user-research-design",
+        "reason": "Depends on PrepKit workflow orchestration"
+      },
+      {
+        "id": "product-opportunity-mapping",
+        "reason": "Depends on PrepKit workflow orchestration"
+      },
+      {
+        "id": "product-prd-authoring",
+        "reason": "Depends on PrepKit workflow orchestration"
+      },
+      {
+        "id": "product-prioritization",
+        "reason": "Depends on PrepKit workflow orchestration"
+      }
+    ]
+  }
+}

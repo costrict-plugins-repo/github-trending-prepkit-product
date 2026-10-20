@@ -1,0 +1,19 @@
+{
+  "name": "prepkit-product",
+  "description": "Product management skills: discovery synthesis, user research design, opportunity mapping, PRD authoring, prioritization, metrics analysis, engagement design, and validation.",
+  "version": "2.4.0",
+  "author": {
+    "name": "PrepKit Team"
+  },
+  "repository": "https://github.com/namht1st/prepkit-product",
+  "license": "MIT",
+  "keywords": [
+    "product-management",
+    "discovery",
+    "prd",
+    "prioritization",
+    "user-research",
+    "opportunity-mapping",
+    "metrics"
+  ]
+}
